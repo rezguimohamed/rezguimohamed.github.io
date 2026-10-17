@@ -58,13 +58,16 @@
     document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(dict[k]!==undefined)el.textContent=dict[k]});
     document.querySelectorAll('[data-i18n-html]').forEach(el=>{const k=el.dataset.i18nHtml;if(dict[k]!==undefined)el.innerHTML=dict[k]});
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{const k=el.dataset.i18nPlaceholder;if(dict[k]!==undefined)el.placeholder=dict[k]});
-    const nextLanguage=next==='fr'?'العربية':next==='ar'?'English':'Français';
-    $('#lang-label').textContent=nextLanguage;
-    $('#lang-btn').setAttribute('aria-label',next==='fr'?'Passer en arabe':next==='ar'?'Switch to English':'Passer au français');
+    document.querySelectorAll('.language-option').forEach(option=>{
+      const active=option.dataset.language===next;
+      option.classList.toggle('is-active',active);
+      option.setAttribute('aria-pressed',String(active));
+    });
+    $('#language-switcher').setAttribute('aria-label',next==='ar'?'اختيار اللغة':next==='en'?'Choose language':'Choisir la langue');
     localStorage.setItem('grm-language',next);
   }
-  $('#lang-btn').addEventListener('click',()=>setLanguage(lang==='fr'?'ar':lang==='ar'?'en':'fr'));
-  try { const saved=localStorage.getItem('grm-language'); if(['fr','ar','en'].includes(saved))setLanguage(saved); }catch(e){}
+  document.querySelectorAll('.language-option').forEach(option=>option.addEventListener('click',()=>setLanguage(option.dataset.language)));
+  try { const saved=localStorage.getItem('grm-language'); setLanguage(['fr','ar','en'].includes(saved)?saved:'fr'); }catch(e){ setLanguage('fr'); }
   $('#year').textContent=new Date().getFullYear();
   $('#appointment-form').addEventListener('submit',e=>{
     e.preventDefault();const f=e.currentTarget;
