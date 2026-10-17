@@ -1,6 +1,6 @@
 # GRM Garage Rezgui Mohamed — Site vitrine
 
-Site statique bilingue **français / العربية**. Aucun framework et aucun build nécessaires.
+Site statique trilingue **français / العربية / English**. Aucun framework et aucun build nécessaires.
 
 ## Publication Netlify (méthode simple)
 

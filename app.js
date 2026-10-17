@@ -36,21 +36,35 @@
     bookingKicker:'لنتحدث عن سيارتك',bookingTitle:'مشكلة في السيارة؟<br><span>نحن هنا للمساعدة.</span>',bookingLead:'صف لنا ما تحتاجه. سنفتح طلبك في واتساب مباشرة، دون حساب أو إجراءات معقدة.',bookingCall:'أو اتصل بنا مباشرة',formTitle:'اطلب موعدًا',formName:'الاسم *',formNameP:'الاسم واللقب',formPhone:'رقم الهاتف *',formPhoneP:'رقم هاتفك',formCar:'السيارة',formCarP:'مثال: Golf 7، 2016',formService:'نوع الخدمة',serviceOpt1:'التشخيص الإلكتروني',serviceOpt2:'الميكانيك العام',serviceOpt3:'الصيانة الدورية',serviceOpt4:'الأداء والمشاريع',serviceOpt5:'فحص قبل الشراء',serviceOpt6:'طلب آخر',formDetails:'اشرح المشكلة',formDetailsP:'رسالتك...',formSend:'إرسال عبر واتساب',formPrivacy:'لا نخزن أي بيانات على الموقع. تُفتح واتساب لإرسال الرسالة.',
     contactKicker:'اتصل بنا وزرنا',contactTitle:'نستقبلكم <span>في تونس.</span>',contactIntro:'تحتاج تشخيصًا أو نصيحة أو موعدًا؟ اتصل بنا أو تفضل بزيارة الورشة.',contactAddress:'العنوان',contactDirections:'افتح الاتجاهات على Google Maps ↗',contactTel:'الهاتف / واتساب',contactChat:'راسلنا على واتساب ↗',contactSchedule:'التوقيت التقريبي',contactWeek:'الاثنين – السبت: 08:00 – 18:00',contactSunday:'الأحد: 08:00 – 13:00',contactHoursNote:'يرجى تأكيد التوقيت قبل الزيارة.',mapOpen:'افتح الاتجاهات',footerPhrase:'شغف السيارات. وثقتكم مسؤوليتنا.',footerRights:'جميع الحقوق محفوظة.',footerTop:'العودة إلى الأعلى ↑'
   };
+  const en = {
+    topLocation:'9 rue Farj Gaâloul, Tunis',topHours:'Mon–Sat 08:00–18:00',
+    navServices:'Services',navAbout:'The garage',navWork:'Our work',navReviews:'Customer reviews',navContact:'Contact',navBook:'Book an appointment',
+    heroKicker:'YOUR AUTOMOTIVE GARAGE IN TUNIS',heroTitle:'MECHANICAL WORK<br>THAT MAKES <em>A DIFFERENCE.</em>',heroLead:'Accurate diagnostics. Careful workmanship. Honest advice. Trust your vehicle to a team that truly loves mechanics.',heroBook:'Book an appointment',heroExplore:'Explore our services',heroProof:'76 published reviews',heroTag1:'Expert diagnostics',heroTag2:'Precision at every step',heroScroll:'SCROLL TO DISCOVER',
+    trust1:'Accurate diagnostics',trust2:'Careful workmanship',trust3:'Transparent advice',trust4:'All vehicle makes',
+    serviceKicker:'WHAT WE DO',serviceTitle:'SOLUTIONS FOR <span>EVERY PROBLEM.</span>',serviceIntro:'From difficult breakdowns to everyday maintenance, we provide the expertise you need to get back on the road with confidence.',serviceAsk:'Request a quote',
+    s1title:'Electronic diagnostics',s1body:'Fault finding, ECU scans, engine warning lights, sensors and onboard systems.',s2title:'General mechanics',s2body:'Engines, clutches, transmissions, brakes, suspension, steering and mechanical repairs.',s3title:'Maintenance & servicing',s3body:'Oil changes, filters, belts, fluid checks and regular vehicle maintenance.',s4title:'Performance & projects',s4body:'Mechanical preparation and technical support for automotive projects tailored to your needs.',s5title:'Pre-purchase inspection',s5body:'Inspection of key points and diagnostics to help you buy your next car with confidence.',s6title:'Buying & selling advice',s6body:'Technical guidance when buying or selling a used vehicle.',
+    aboutKicker:'PASSION FOR THE CRAFT',aboutTitle:'WE DO MORE THAN REPAIR.<br><span>WE UNDERSTAND.</span>',aboutLead:'At GRM Garage Rezgui Mohamed, every vehicle deserves a real search for the cause—not just a parts replacement.',aboutBody:'Our approach is simple: listen, diagnose, explain the work and care for your car as if it were our own.',v1title:'Find the cause',v1body:'A methodical approach before every repair.',v2title:'Explain clearly',v2body:'Straightforward answers, with no surprises.',v3title:'Work precisely',v3body:'Attention to detail from start to finish.',aboutVisit:'Visit us',
+    workKicker:'IN THE WORKSHOP',workTitle:'EXPERTISE <span>IN ACTION.</span>',workFollow:'See our work on Facebook',workCat1:'FAULT FINDING',workName1:'Diagnostics & electronics',workCat2:'KNOW-HOW',workName2:'Engine repairs',workCat3:'PREVENTION',workName3:'Maintenance & reliability',workNote:'Illustrations of our areas of expertise. For real photos and videos of the garage, visit our Facebook page.',
+    reviewKicker:'WHAT OUR CUSTOMERS SAY',reviewTitle:'TRUST IS <span>EARNED.</span>',reviewCount:'76 public reviews',reviewVerified:'Public customer review',reviewMore:'See reviews on Google Maps',
+    bookingKicker:'LET’S TALK ABOUT YOUR VEHICLE',bookingTitle:'CAR TROUBLE?<br><span>WE’LL TAKE CARE OF IT.</span>',bookingLead:'Tell us what you need. Your request opens directly in WhatsApp—no account or complicated form required.',bookingCall:'OR CALL US DIRECTLY',formTitle:'Request an appointment',formName:'Your name *',formNameP:'Full name',formPhone:'Phone *',formPhoneP:'Your phone number',formCar:'Vehicle',formCarP:'e.g. Golf 7, 2016',formService:'Requested service',serviceOpt1:'Electronic diagnostics',serviceOpt2:'General mechanics',serviceOpt3:'Maintenance & servicing',serviceOpt4:'Performance & projects',serviceOpt5:'Pre-purchase inspection',serviceOpt6:'Other request',formDetails:'Describe the problem',formDetailsP:'Your message...',formSend:'Send via WhatsApp',formPrivacy:'No data is stored on this website. WhatsApp opens so you can send your message.',
+    contactKicker:'CONTACT & DIRECTIONS',contactTitle:'WE’RE HERE <span>IN TUNIS.</span>',contactIntro:'Need a diagnosis, advice or an appointment? Contact us or visit the garage.',contactAddress:'ADDRESS',contactDirections:'Get directions on Google Maps ↗',contactTel:'PHONE / WHATSAPP',contactChat:'Message us on WhatsApp ↗',contactSchedule:'OPENING HOURS',contactWeek:'Monday – Saturday: 08:00 – 18:00',contactSunday:'Sunday: 08:00 – 13:00',contactHoursNote:'Please confirm opening hours before visiting.',mapOpen:'Open directions',footerPhrase:'A passion for cars. Respect for your trust.',footerRights:'All rights reserved.',footerTop:'Back to top ↑'
+  };
   // Review quotes are preserved verbatim in French because they were publicly posted in French.
   let lang = 'fr';
   function setLanguage(next) {
-    lang=next; const dict=next==='ar'?ar:fr;
+    lang=next; const dict=next==='ar'?ar:next==='en'?en:fr;
     document.documentElement.lang=next;
     document.documentElement.dir=next==='ar'?'rtl':'ltr';
     document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(dict[k]!==undefined)el.textContent=dict[k]});
     document.querySelectorAll('[data-i18n-html]').forEach(el=>{const k=el.dataset.i18nHtml;if(dict[k]!==undefined)el.innerHTML=dict[k]});
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{const k=el.dataset.i18nPlaceholder;if(dict[k]!==undefined)el.placeholder=dict[k]});
-    $('#lang-label').textContent=next==='fr'?'العربية':'Français';
-    $('#lang-btn').setAttribute('aria-label',next==='fr'?'Passer en arabe':'تغيير اللغة إلى الفرنسية');
+    const nextLanguage=next==='fr'?'العربية':next==='ar'?'English':'Français';
+    $('#lang-label').textContent=nextLanguage;
+    $('#lang-btn').setAttribute('aria-label',next==='fr'?'Passer en arabe':next==='ar'?'Switch to English':'Passer au français');
     localStorage.setItem('grm-language',next);
   }
-  $('#lang-btn').addEventListener('click',()=>setLanguage(lang==='fr'?'ar':'fr'));
-  try { if(localStorage.getItem('grm-language')==='ar')setLanguage('ar'); }catch(e){}
+  $('#lang-btn').addEventListener('click',()=>setLanguage(lang==='fr'?'ar':lang==='ar'?'en':'fr'));
+  try { const saved=localStorage.getItem('grm-language'); if(['fr','ar','en'].includes(saved))setLanguage(saved); }catch(e){}
   $('#year').textContent=new Date().getFullYear();
   $('#appointment-form').addEventListener('submit',e=>{
     e.preventDefault();const f=e.currentTarget;
@@ -60,7 +74,9 @@
     const service=s.options[s.selectedIndex].textContent;
     const msg=lang==='fr'
       ? `Bonjour GRM Garage, je souhaite demander un rendez-vous.\n\nNom : ${v.get('name')}\nTéléphone : ${v.get('phone')}\nVéhicule : ${v.get('car')||'Non précisé'}\nService : ${service}\nProblème : ${v.get('details')||'À préciser'}\n\nMerci de me confirmer vos disponibilités.`
-      : `السلام عليكم، أود حجز موعد في ورشة GRM.\n\nالاسم: ${v.get('name')}\nالهاتف: ${v.get('phone')}\nالسيارة: ${v.get('car')||'غير محددة'}\nالخدمة: ${service}\nوصف المشكلة: ${v.get('details')||'سأوضحها لاحقاً'}\n\nشكراً، يرجى إعلامي بالمواعيد المتاحة.`;
+      : lang==='ar'
+        ? `السلام عليكم، أود حجز موعد في ورشة GRM.\n\nالاسم: ${v.get('name')}\nالهاتف: ${v.get('phone')}\nالسيارة: ${v.get('car')||'غير محددة'}\nالخدمة: ${service}\nوصف المشكلة: ${v.get('details')||'سأوضحها لاحقاً'}\n\nشكراً، يرجى إعلامي بالمواعيد المتاحة.`
+        : `Hello GRM Garage, I would like to request an appointment.\n\nName: ${v.get('name')}\nPhone: ${v.get('phone')}\nVehicle: ${v.get('car')||'Not specified'}\nService: ${service}\nProblem: ${v.get('details')||'To be specified'}\n\nPlease let me know your available times.`;
     window.open(`https://wa.me/21623740708?text=${encodeURIComponent(msg)}`,'_blank','noopener,noreferrer');
   });
 })();
